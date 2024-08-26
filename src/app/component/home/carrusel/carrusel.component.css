@@ -1,0 +1,5 @@
+.carousel-inner img {
+    max-height: 400px; /* Ajusta este valor según tus necesidades */
+    object-fit: cover; /* Recorta la imagen para que encaje dentro del contenedor sin deformarse */
+    
+  }
