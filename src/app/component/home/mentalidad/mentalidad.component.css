@@ -1,0 +1,38 @@
+
+.mentalidad{
+    
+    background-image: url('/assets/imagenes/sin.png');
+    height: 600px;
+    display: flex; /* Activa Flexbox en el contenedor padre */
+    justify-content: left ; /* Centra el hijo horizontalmente */
+    align-items: center; /* Centra el hijo verticalmente */
+    width: 100%;
+    text-align: center; /* Opcional: centra el texto dentro del div hijo */
+    background-size: cover;
+}
+.text{
+    margin-left: 100px;
+    max-width: 500px;
+}
+.text2{
+    display: flex;
+}
+
+.comunidad{
+    background-image: url('/assets/imagenes/img2.png');
+    height: 600px;
+    display: flex; /* Activa Flexbox en el contenedor padre */
+    justify-content: left ; /* Centra el hijo horizontalmente */
+    align-items: center; /* Centra el hijo verticalmente */
+    width: 100%;
+    text-align: center; /* Opcional: centra el texto dentro del div hijo */
+    background-size: cover;
+}
+
+.box1, .box2 {
+    flex: 1; /* Ajusta los divs para que ocupen el mismo espacio */
+    padding: 50px; /* Añade algo de espacio interno */
+  }
+  .box1{
+    align-items: end;
+  }

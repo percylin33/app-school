@@ -1,4 +1,4 @@
-<mat-toolbar color="primary" class="px-3">
+<mat-toolbar color="primary" class="custom-navbar px-3">
   <!-- Imagen y nombre de la página a la izquierda -->
   <a mat-button routerLink="" class="d-flex align-items-center">
     <img src="assets/imagenes/OIP.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top me-3">
@@ -14,6 +14,20 @@
   <a mat-button routerLink="contact">Contact</a>
 
   <!-- Botón de login -->
-  <button mat-raised-button color="accent" class="btn-sm">Login</button>
+  <button mat-raised-button color="accent" class="btn-sm" routerLink="login">Login</button>
 </mat-toolbar>
+
 <router-outlet></router-outlet>
+
+<footer>
+  <div class="container">
+      <p>Copyright © 2023 Mi Aplicación. Todos los derechos reservados.</p>
+      <nav>
+          <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Acerca de</a></li>
+              <li><a href="#">Contacto</a></li>
+          </ul>
+      </nav>
+  </div>
+</footer>

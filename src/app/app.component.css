@@ -7,3 +7,20 @@
     justify-content: space-between;
     align-items: center;
   }
+  .custom-navbar {
+    background-color: #fff !important; /* Cambia el color de fondo */
+    color: black !important; /* Cambia el color del texto */
+  }
+  
+  .mat-toolbar.mat-primary {
+    background-color: #fff!important; /* Color de fondo personalizado */
+  }
+  
+  .mat-button, .mat-raised-button {
+    color: black !important; /* Color del texto de los botones */
+  }
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}

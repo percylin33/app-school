@@ -1,0 +1,9 @@
+.continer {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 10%, rgba(255, 255, 255, 0.5) 30%, transparent 70%);
+
+}
+.cont-text{
+    max-width: 300px;
+    padding: 50px;
+    margin-left: 300px;
+}
